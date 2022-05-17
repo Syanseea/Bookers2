@@ -1,0 +1,19 @@
+
+
+<% @books.each do |book| %>
+<div>
+  <h2>Book detail</h2>
+  <table>
+  <tbody>
+    <tr>
+      <td>
+        <%= image_tag book.user.get_profile_image(100,100) %>
+        <%= book.user.name %>
+      </td>
+      <td><%= book.name %></td>
+      <td><%= book.introduction %></td>
+    </tr>
+  </tbody>
+  </table>
+</div>
+<% end %>
