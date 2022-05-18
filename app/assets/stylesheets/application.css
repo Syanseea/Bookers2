@@ -1,3 +1,4 @@
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -13,3 +14,35 @@
  *= require_tree .
  *= require_self
  */
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem
+}
+
+.form-control {
+  width: 100%;
+  border: 1px solid #ced4da;
+  display: block;
+}
+
+.form-control-file {
+  width: 100%;
+  display: block
+}
+
+.table {
+  width:100%;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+table {
+  display: table;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: grey;
+}
