@@ -31,7 +31,7 @@
        </li>
        <li class="nav-item">
         <%= link_to(users_path, class: 'nav-link text-light') do %>
-       <strong><i class="fas fa-users"></i><span> User </span></strong>
+       <strong><i class="fas fa-users"></i><span> Users </span></strong>
         <% end %>
        </li>
        <li class="nav-item">
@@ -57,7 +57,7 @@
        </li>
        <li class="nav-item">
         <%= link_to(new_user_registration_path, class: 'nav-link text-light') do %>
-       <strong><i class="fas fa-user-plus"></i><span> Sign Up </span></strong>
+       <strong><i class="fas fa-user-plus"></i><span> Sign up </span></strong>
        <% end %>
        </li>
        <li class="nav-item">
@@ -72,6 +72,7 @@
       </nav>
     </header>
     <main>
+     <p><%= notice %></p>
     <%= yield %>
     </main>
     <footer>
